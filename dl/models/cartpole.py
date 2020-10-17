@@ -10,19 +10,19 @@ import tensorflow as tf
 import itertools
 import gym
 import math
-import pct.utilities.rmath as rm
+import pctx.utilities.rmath as rm
 import numpy as np
-import pct.openai.video  as vid
+import pctx.openai.video  as vid
 
 from tensorflow import keras
-from pct.dl.utils import get_optimizer
-from pct.dl.utils import get_loss_function
-from pct.openai.utils import EnvState
-from pct.plots.matplots import SubPlotter
-from pct.utilities.rmath import Counter
-from pct.openai.modeldata import CartpoleData
-from pct.plots.matplots import move_figure
-from pct.openai.cpplots import CartpoleDataPlot
+from pctx.dl.utils import get_optimizer
+from pctx.dl.utils import get_loss_function
+from pctx.openai.utils import EnvState
+from pctx.plots.matplots import SubPlotter
+from pctx.utilities.rmath import Counter
+from pctx.openai.modeldata import CartpoleData
+from pctx.plots.matplots import move_figure
+from pctx.openai.cpplots import CartpoleDataPlot
 
 from enum import Enum
 
