@@ -8,9 +8,9 @@ Created on Sat May 16 16:11:40 2020
 
 from tensorflow.python.keras.metrics import MeanMetricWrapper
 
-from pct.dl.functions import squared_sum_error
-from pct.dl.functions import my_mean_squared_error
-from pct.dl.functions import root_squared_sum_error
+from pctx.dl.functions import squared_sum_error
+from pctx.dl.functions import my_mean_squared_error
+from pctx.dl.functions import root_squared_sum_error
 
 
 class MyMeanSquaredError(MeanMetricWrapper):

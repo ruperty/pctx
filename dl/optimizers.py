@@ -7,8 +7,8 @@ Created on Sat Jun  6 15:22:55 2020
 
 import tensorflow as tf
 import numpy as np
-from pct.utilities.rmath import sigmoid
-from pct.utilities.rmath import smooth
+from pctx.utilities.rmath import sigmoid
+from pctx.utilities.rmath import smooth
 from tensorflow.python.framework import dtypes
 from tensorflow.python.keras.optimizer_v2 import optimizer_v2
 from tensorflow.python.util.tf_export import keras_export

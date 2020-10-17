@@ -7,9 +7,9 @@ Created on Mon Apr 27 20:34:42 2020
 
 from PIL import Image
 import numpy as np
-import pct.dl.losses as pctloss
-import pct.dl.metrics as pctmetrics
-import pct.dl.optimizers as pctopts
+import pctx.dl.losses as pctloss
+import pctx.dl.metrics as pctmetrics
+import pctx.dl.optimizers as pctopts
 
 import tensorflow as tf
 
