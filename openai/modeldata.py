@@ -6,7 +6,7 @@ Created on Fri Jun 26 20:56:17 2020
 """
 
 
-import pct.utilities.rmath as rm
+import pctx.utilities.rmath as rm
 
 class CartpoleData(object):
 

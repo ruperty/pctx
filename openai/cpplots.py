@@ -8,10 +8,10 @@ Created on Thu May 28 19:44:52 2020
 
 import numpy as np
 import plotly.graph_objects as go
-from pct.plots.plotlys import  SingleScatterPlot
-from pct.plots.plotlys import  MultipleScatterSubPlots
-from pct.plots.plotlys import add_point_to_widget
-from pct.plots.plotlys import add_point_to_subplot_widget
+from pctx.plots.plotlys import  SingleScatterPlot
+from pctx.plots.plotlys import  MultipleScatterSubPlots
+from pctx.plots.plotlys import add_point_to_widget
+from pctx.plots.plotlys import add_point_to_subplot_widget
 
 
 class BaseSpecificPlots():

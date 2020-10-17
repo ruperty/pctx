@@ -9,8 +9,8 @@ Created on Mon Jun 29 20:12:34 2020
 
 
 import numpy
-import pct.utilities.timing as tim
-from pct.dl.models.cartpole import CartpoleTuning
+import pctx.utilities.timing as tim
+from pctx.dl.models.cartpole import CartpoleTuning
 
 
 

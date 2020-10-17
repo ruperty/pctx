@@ -9,11 +9,11 @@ Created on Tue May 26 18:53:14 2020
 #from plotly.offline import plot
 import plotly.graph_objs as go
 import numpy as np
-import pct.openai.utils as ou
-import pct.utilities.rmath as rm
-from pct.utilities.errors import root_sum_squared_error
-from pct.openai.cpplots import add_cartpolepoints_to_widget
-from pct.openai.cpplots import add_cartpole_positions_to_widget
+import pctx.openai.utils as ou
+import pctx.utilities.rmath as rm
+from pctx.utilities.errors import root_sum_squared_error
+from pctx.openai.cpplots import add_cartpolepoints_to_widget
+from pctx.openai.cpplots import add_cartpole_positions_to_widget
 import math
 
 
